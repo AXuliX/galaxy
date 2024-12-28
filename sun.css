@@ -1,0 +1,126 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #f5f5f5;
+    background: linear-gradient(to bottom, #1a2a41, #293b59);
+    padding: 20px;
+}
+
+/* Heading Styling */
+h1 {
+    text-align: center;
+    color: #fbb03b;
+    font-size: 48px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    margin-bottom: 30px;
+}
+
+h2 {
+    text-align: center;
+    color: #fbb03b;
+    margin-bottom: 20px;
+}
+
+/* Content Sections */
+.content {
+    margin-bottom: 40px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+}
+
+/* Image Styling */
+.image-left {
+    float: left;
+    margin-right: 20px;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Video Styling */
+.video-right {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.video-description {
+    margin: 20px auto;
+    max-width: 700px;
+    text-align: justify;
+}
+
+/* Table Styling */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background: rgba(16, 16, 16, 0.9);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #333;
+    color: #f0f0f0;
+}
+
+th {
+    background: #fbb03b;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+tr:nth-child(even) {
+    background-color:rgba(255, 255, 255, 0.1);
+}
+
+tr:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+
+/* Links */
+a {
+    color: #fbb03b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ffc95e;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .image-left, .video-right {
+        float: none;
+        margin: 0 auto 20px;
+        display: block;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+}
